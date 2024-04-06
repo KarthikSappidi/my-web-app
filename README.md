@@ -12,3 +12,8 @@ The Project has the following structure:
    `manage.py`: A command-line utility that lets you interact with the Django project in various ways.
    `urls.py`: Defines the URL patterns for the project.
    `wsgi.py`: An entry-point for WSGI-compatible web servers to serve your project.
+
+`devops/` : Appliaction Directory which contains:
+
+   `templates/`: Contains all the HTML templates used for rendering views.
+   `views.py`: Contains the Python code executed when handling a request, which renders the templates.
