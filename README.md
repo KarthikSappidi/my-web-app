@@ -9,3 +9,6 @@ The Project has the following structure:
 `Sappidi/`: The main project directory which contains:
 
    `settings.py`: Configuration file for the entire project.
+   `manage.py`: A command-line utility that lets you interact with the Django project in various ways.
+   `urls.py`: Defines the URL patterns for the project.
+   `wsgi.py`: An entry-point for WSGI-compatible web servers to serve your project.
