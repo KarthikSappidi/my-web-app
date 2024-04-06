@@ -7,4 +7,5 @@
 The Project has the following structure:
 
 `Sappidi/`: The main project directory which contains:
+
    `settings.py`: Configuration file for the entire project.
