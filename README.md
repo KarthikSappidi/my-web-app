@@ -13,7 +13,7 @@ The Project has the following structure:
    `urls.py`: Defines the URL patterns for the project.
    `wsgi.py`: An entry-point for WSGI-compatible web servers to serve your project.
 
-`devops/` : Appliaction Directory which contains:
+`devops/` : Application Directory which contains:
 
    `templates/`: Contains all the HTML templates used for rendering views.
    `views.py`: Contains the Python code executed when handling a request, which renders the templates.
