@@ -17,3 +17,6 @@ The Project has the following structure:
 
    `templates/`: Contains all the HTML templates used for rendering views.
    `views.py`: Contains the Python code executed when handling a request, which renders the templates.
+
+`Dockerfile`: Used to containerize the application.
+`requirements.txt`: Conatins the requirements for the application.
