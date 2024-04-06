@@ -20,8 +20,6 @@ The Project has the following structure:
 
 `Dockerfile`: Used to containerize the application.
 
-`requirements.txt`: Conatins the requirements for the application.
-
 ## Setup Instructions:
 
 1. Clone the repository by using the command `git clone`.
