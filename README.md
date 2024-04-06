@@ -19,4 +19,26 @@ The Project has the following structure:
    `views.py`: Contains the Python code executed when handling a request, which renders the templates.
 
 `Dockerfile`: Used to containerize the application.
+
 `requirements.txt`: Conatins the requirements for the application.
+
+## Setup Instructions:
+
+1. Clone the repository by using the command `git clone`.
+2. Install Docker.
+3. Build the Docker Image by using command `docker build -t .`
+4. Run the Docker Container by using commad `docker container run -dt --name <****> -p 8000:8000 <image-name>`
+5. Accessing the application - Open the web browser and navigate to  `http://localhost:8000/`
+
+## Project Configuration:
+
+**Settings.py** : The `settings.py` file contains the configurations for the entire project
+
+**Views.py** : The `views.py` file contains the Python code executed when handling a request. The views render the templates and return the response to the client.
+
+**Templates** : The `templates/` directory contains all the HTML templates used for rendering views.
+
+**URLs** : The `urls.py` file defines the URL patterns for the project. Each URL pattern maps to a specific view.
+
+**Docker** : The `Dockerfile` is used to containerize the application. The Dockerfile contains instructions for building a Docker image that includes all the necessary dependencies and configurations for running the application.
+
