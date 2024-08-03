@@ -2,7 +2,6 @@ pipeline {
     agent any
 
     environment {
-        //SONARQUBE_SERVER = 'sonar-server'
         DOCKER_IMAGE = 'karthiksappidi/web:v1'
         DOCKER_REGISTRY_CREDENTIALS = 'docker'
     }
